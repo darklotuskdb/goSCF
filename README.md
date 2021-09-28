@@ -5,6 +5,8 @@ Session Cookie Finder - It helps you to find the main session cookie/s (upto 4) 
 ```
 go get -u github.com/darklotuskdb/goSCF
 ```
+## Screenshot
+![ss](https://user-images.githubusercontent.com/29382875/135152281-265aac3f-7eab-431e-b82a-1beea84bb8a8.png)
 
 ## Usage
 ```

@@ -1,0 +1,2 @@
+# goSCF
+Session Cookie Finder

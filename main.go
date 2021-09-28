@@ -13,7 +13,23 @@ import (
 func main() {
 	Crst := "\033[0m"
 	Cy := "\033[33m"
-	Cg:= "\033[32m"
+	Cg := "\033[32m"
+	Cr := "\033[31m"
+	Cb := "\033[34m"
+	Bnr :=
+		`
+   ____    U  ___ u  ____      ____   _____  
+U /"___|u   \/"_ \/ / __"| uU /"___| |" ___| 
+\| |  _ /   | | | |<\___ \/ \| | u  U| |_  u 
+ | |_| |.-,_| |_| | u___) |  | |/__ \|  _|/  
+  \____| \_)-\___/  |____/>>  \____| |_|     
+  _)(|_       \\     )(  (__)_// \\  )(\\,-  
+ (__)__)     (__)   (__)    (__)(__)(__)(_/  
+                                             
+			By @DarkLotusKDB <3
+
+`
+	fmt.Print(string(Cr), Bnr, string(Crst))
 
 	var Url, ck, idf string
 	var mth int
@@ -30,7 +46,7 @@ func main() {
 
 	tc, _ := strconv.Atoi(fmt.Sprint(strings.Count(ck, ";"))) //converting string to integer
 if mth == 1 || mth == 0 {
-	fmt.Println(string(Cy), "\n[+] ================ Checking For Single Session Cookie =================", string(Crst))
+	fmt.Println(string(Cy), "[+] ================ Checking For Single Session Cookie =================", string(Crst))
 	for i := 0; i <= tc; i++ {
 		w := fmt.Sprint(strings.Split(ck, ";")[i])
 		fw := fmt.Sprint(strings.Replace(w, " ", "", -1))
@@ -157,5 +173,6 @@ if mth == 1 || mth == 0 {
 		}
 	}
 }
-		fmt.Println()
+
+	fmt.Println(string(Cr), "\n Happy Hacking <3", string(Crst), string(Cb),"\n @darklotuskdb :)\n", string(Crst))
 }

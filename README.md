@@ -10,6 +10,7 @@ go get -u github.com/darklotuskdb/goSCF
 ```
 ./goSCF -u 'https://target.com/myprofile' -c 'JSESSIONID=C0E10C52075E1E5; AltoroAccounts=ODuZ34jxNzIuNDR8' -i 'Hello Admin User'
 ```
+```
 -c string
         Provide Cookies from Burp Suite
   -i string
@@ -22,6 +23,7 @@ go get -u github.com/darklotuskdb/goSCF
         4 : Quadruple Cookie Check (default 1)
   -u string
         Authenticated Web Page URL
+```        
 
 ## Is It Helpful To You?
 [BuyMeACoffee](https://www.buymeacoffee.com/darklotus)

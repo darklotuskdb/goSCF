@@ -36,7 +36,7 @@ U /"___|u   \/"_ \/ / __"| uU /"___| |" ___|
 	flag.StringVar(&Url, "u", "", "Authenticated Web Page URL")
 	flag.StringVar(&ck, "c", "", "Provide Cookies from Burp Suite")
 	flag.StringVar(&idf, "i", "", "Identifier like username, email, Response Header, etc")
-	flag.IntVar(&mth, "m", 1, "0 : For All \n1 : Single Cookie Check (Default) \n2 : Double Cookie Check \n3 : Tripe Cookie Check \n4 : Quadruple Cookie Check")
+	flag.IntVar(&mth, "m", 1, "0 : For All \n1 : Single Cookie Check (Default) \n2 : Double Cookie Check \n3 : Triple Cookie Check \n4 : Quadruple Cookie Check")
 	flag.Parse()
 
 	req, err := http.NewRequest("GET", Url, nil)
@@ -99,7 +99,7 @@ if mth == 1 || mth == 0 {
 	}
 }
 	if mth == 3 || mth == 0 {
-	fmt.Println(string(Cy), "\n[+] ================ Checking For Tripe Session Cookies =================", string(Crst))
+	fmt.Println(string(Cy), "\n[+] ================ Checking For Triple Session Cookies =================", string(Crst))
 	for i := 0; i <= tc; i++ {
 		for j := 0; j <= tc; j++ {
 			for k := 0; k <= tc; k++ {

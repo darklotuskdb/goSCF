@@ -1,6 +1,9 @@
 # goSCF
 Session Cookie Finder - It helps you to find the main session cookie/s (upto 4) from the bunch of cookies, which is responsible for the user authentication.
 
+## Description
+Just a simple tool for Lazy Hackers 😴 If you are tired of removing cookies one by one to find the main session cookie then this tool is for you 🤠
+
 ## Install
 ```
 go get -u github.com/darklotuskdb/goSCF

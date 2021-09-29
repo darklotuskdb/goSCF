@@ -21,7 +21,7 @@ go get -u github.com/darklotuskdb/goSCF
         0 : For All
         1 : Single Cookie Check (Default)
         2 : Double Cookie Check
-        3 : Tripe Cookie Check
+        3 : Triple Cookie Check
         4 : Quadruple Cookie Check (default 1)
   -u string
         Authenticated Web Page URL

@@ -6,6 +6,9 @@ Just a simple tool for Lazy Hackers 😴 If you are tired of removing cookies on
 
 ## Install
 ```
+apt-get install golang
+```
+```
 go get -u github.com/darklotuskdb/goSCF
 ```
 ## Screenshot

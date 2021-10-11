@@ -19,7 +19,7 @@ go get -u github.com/darklotuskdb/goSCF
 ./goSCF -u 'https://target.com/myprofile' -c 'JSESSIONID=C0E10C52075E1E5; AltoroAccounts=ODuZ34jxNzIuNDR8' -i 'Hello Admin User'
 ```
 ```
--c string
+  -c string
         Provide Cookies from Burp Suite
   -i string
         Identifier like username, email, Response Header, etc
